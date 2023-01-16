@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+
+    <style>
+        body {
+            background-color: #00fa;
+            color: #fff;
+            font: normal 1.5rem monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição.</p>
+
+    <script>
+        // isso é um comentário em linha
+        /* isso é um comentário em bloco */
+        
+        // função 'window.alert()' usado para mostrar um alerta
+        alert('Olá')
+        let sim = confirm('Você gosta de música?')
+        if (sim === true) {
+            document.writeln('Sim, eu gosto de música!')
+        }
+
+        // função 'window.prompt()' usada para fazer perguntas
+        let nome = prompt('Qual é o seu nome?')
+
+        let n1 = 5
+        let n2 = 5
+        let s = n1 + n2
+        // metódo 'document.write()' usado para escrever no corpo da pág
+        document.write(`A soma dos valores é: ${s}`)
+    </script>
+</body>
+</html>

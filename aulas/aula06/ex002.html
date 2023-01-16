@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratando dados com JavaScript</title>
+
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Me livrei da maldição.</p>
+    <script>
+        // mudando o layout da página
+        document.body.style.background = 'lightskyblue'
+        document.body.style.color = 'white'
+        document.body.style.fontSize = '2rem'
+
+        var nome = prompt('Qual é o seu nome? ') // Pergunta o nome do usuário...
+        var idade = prompt('E quantos anos você tem? ') // Pergunta a idade do usuário...
+        alert('Olá, ' + nome + '!') // Mostra o nome do usuário utilizando concatenação (Sinal de +)
+        alert(`Olá, ${nome.toUpperCase()}! \nUau, você tem ${idade} anos *-*`); // Mostra o nome do usuário utilizando TEMPLATE STRING.
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de dados com JavaScript</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Me livrei da maldição.</p>
+
+    <script>
+        /*
+            STRING -> NUMBER:
+            Number(prompt('Number 1: '))
+            Number(num)
+            parseInt(num)
+            parseFloat(num)                        
+        */
+        /*
+            NUMBER -> STRING:
+            String(prompt('Number 2'))
+            String(s)
+            num.toString()
+        */
+
+
+        var nome = window.String(prompt('Qual é o seu nome: ')) // Armazena o valor com o Tipo de Dado 'string'
+        var num1 = window.Number(prompt('Digite um número: ')) // Armazena o valor com o Tipo de Dado 'number'
+        var num2 = window.Number(prompt('Digite outro número: ')) // Armazena o valor com o Tipo de Dado 'number'
+        var soma = num1 + num2
+
+        // alerta utilizando template strings com placeholder
+        alert(`Olá, ${nome.toUpperCase()}! A soma entre ${num1} e ${num2} é igual a ${soma}.`)
+    </script>
+</body>
+</html>
