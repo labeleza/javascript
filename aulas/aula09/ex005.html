@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+
+    <style>
+        body {
+            background: #c7c7c7;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p class="text">Estudando mais sobre <strong>DOM</strong></p>
+    <p class="text">Aqui vai o resultado</p>
+    <div id="msg"><strong>Clique em mim</strong></div>
+
+    <script>
+        // Selecionando Elemento por TAG Name
+        var p1 = window.document.getElementsByTagName('p')[1]
+        p1.style.color = 'blue'
+
+        // Selecioando Elemento por ID
+        var d = window.document.getElementById('msg')
+        d.style.background = '#c75487'
+
+        // Selecionando Elemento por ClassName
+        var text = document.getElementsByClassName('text')[1]
+        text.style.color = 'red'
+
+        // Selecionando Elemento por Seletor
+        var str = document.querySelector('div#msg')
+        str.style.color = 'blue'
+    </script>
+</body>
+</html>
