@@ -43,7 +43,7 @@ function verificar() {
                 img.setAttribute('src', './imgs/old-women.jpg')
             }
         }
-        res.textContent = `Você é ${genero} e tem ${idade} anos.`
+        res.textContent = `Você é ${genero} e fará ${idade} anos em ${anoAtual}.`
         res.appendChild(img)
     }
 }
