@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>VAMOS CONTAR</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <label for="txtinicio">Início:</label>
+                <br>
+                <input type="number" name="inicio" id="txtinicio" min="0"  required>
+            </div>
+            <div>
+                <label for="txtfim">Fim: </label>
+                <br>
+                <input type="number" name="fim" id="txtfim" min="0" required>
+            </div>
+            <div>
+                <label for="txtpasso">Passo: </label>
+                <br>
+                <input type="number" name="passo" id="txtpasso" min="0" required>
+            </div>
+            <div>
+                <button id="contar" type="submit" onclick="contar()">Contar</button>
+                <button id="limpar" type="reset" onclick="limpar()">Limpar</button>
+            </div>
+            <div id="contagem">Preparando a contagem...</div>
+        </section>
+    </main>
+    <footer>
+        <p><a href="https://github.com/labeleza" target="_blank">Labeleza</a> &copy; <a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a></p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
