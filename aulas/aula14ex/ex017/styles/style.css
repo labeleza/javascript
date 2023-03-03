@@ -47,6 +47,7 @@ section {
 
 input {
     padding: .3rem;
+    width: 10rem;
 }
 
 #resultado {
@@ -63,10 +64,10 @@ input {
     border-radius: 50%;
 }
 
-#verificar {
+#gerar {
     background-color: #0097dd;
     color: #fff;
-    padding: .5rem 1rem;
+    padding: .3rem .5rem;
 }
 
 footer {

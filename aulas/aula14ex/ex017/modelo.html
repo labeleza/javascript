@@ -4,32 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Tabúada</title>
 
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
-        <h1>Verificador de Idade</h1>
+        <h1>Tabúada</h1>
     </header>
     <main>
         <section>
             <div>
-                <label for="anoNascimento">Ano de Nascimento:</label>
-                <input type="number" name="anoNascimento" id="anoNascimento" min="0" placeholder="Ex: 1990" required>
+                <label for="numero">Número:</label>
+                <input type="number" name="numero" id="numero" min="0" required>
+                <button id="gerar" type="submit" onclick="gerarTabuada()">Gerar Tabúada</button>
             </div>
             <div>
-                <label for="">Sexo:</label>
-                <input type="radio" name="sexo" id="sexoMasculino" checked required>
-                <label for="sexoMasculino">Masculino</label>
-
-                <input type="radio" name="sexo" id="sexoFeminino" required>
-                <label for="sexoFeminino">Feminino</label>
+                <textarea name="" id="" cols="auto" rows="10">Digite um número acima</textarea>
             </div>
-            <div>
-                <button id="verificar" type="submit" onclick="verificar()">Verificar</button>
-            </div>
-            <div id="resultado">Preencha os dados acima para ver o resultado!</div>
         </section>
     </main>
     <footer>
