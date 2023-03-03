@@ -50,18 +50,18 @@ input {
     width: 10rem;
 }
 
+#tabarea {
+    display: flex;
+    justify-content: center;
+}
+
 #resultado {
     display: grid;
     place-items: center;
     gap: .5rem;
     padding: .5rem;
-    text-align: center;
     outline: 1px solid #0097dd;
     border-radius: .2rem;
-}
-
-#resultado img {
-    border-radius: 50%;
 }
 
 #gerar {
@@ -84,9 +84,5 @@ footer a {
 
     section {
     border-radius: 0;
-    }
-
-    #resultado img {
-        width: 100%;
     }
 }
