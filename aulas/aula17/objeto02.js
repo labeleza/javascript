@@ -1,9 +1,17 @@
 // Criando um novo Objeto e dando Propriedades e Valores a ele.
 
-let meuAmigo = new Object();
+let meuAmigo = new Object()
 
-meuAmigo.Nome = "Lucas"
+meuAmigo.Nome = 'Lucas'
 meuAmigo.Idade = 15
-meuAmigo.Sexo = "Masculino"
+meuAmigo.Sexo = 'Masculino'
 
-console.log(`Meu amigo se chama ${meuAmigo.Nome} e ele tem ${meuAmigo.Idade} anos de idade.`)
+console.log(
+    `Meu amigo se chama ${meuAmigo.Nome} e ele tem ${meuAmigo.Idade} anos de idade.`
+)
+
+function nome() {
+    return 'Lucas'
+}
+
+console.log(nome())
